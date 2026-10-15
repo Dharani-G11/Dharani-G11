@@ -43,17 +43,57 @@ class Dharani:
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,fastapi,postgres,redis,docker,git,js,postman,linux,vscode&theme=dark" alt="Core stack"/>
+**Languages**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+</p>
+
+**Backend**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
+  <img src="https://img.shields.io/badge/REST_APIs-0ea5e9?style=for-the-badge&logo=swagger&logoColor=white" alt="REST_APIs"/>
+  <img src="https://img.shields.io/badge/Async_APIs-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Async_APIs"/>
+  <img src="https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white" alt="WebSockets"/>
+  <img src="https://img.shields.io/badge/JWT_Auth-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT_Auth"/>
+  <img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white" alt="Pydantic"/>
+  <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy"/>
+  <img src="https://img.shields.io/badge/asyncpg-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="asyncpg"/>
+</p>
+
+**LLM & RAG**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/RAG_Pipelines-7c3aed?style=for-the-badge" alt="RAG_Pipelines"/>
+  <img src="https://img.shields.io/badge/PyMuPDF-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="PyMuPDF"/>
+  <img src="https://img.shields.io/badge/Sentence_Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Sentence_Transformers"/>
+  <img src="https://img.shields.io/badge/ChromaDB-FF6446?style=for-the-badge" alt="ChromaDB"/>
+  <img src="https://img.shields.io/badge/Semantic_Search-0ea5e9?style=for-the-badge" alt="Semantic_Search"/>
+  <img src="https://img.shields.io/badge/Ollama-111827?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama"/>
+</p>
+
+**Data & Messaging**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/Redis_PubSub-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis_PubSub"/>
+</p>
+
+**Engineering Practices**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="Pytest"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker_Compose"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman"/>
+  <img src="https://img.shields.io/badge/DSA-16a34a?style=for-the-badge&logo=thealgorithms&logoColor=white" alt="DSA"/>
+</p>
 
 </div>
-
-| Area | Tools |
-|:--|:--|
-| **Languages** | Python · SQL · JavaScript |
-| **Backend** | FastAPI · async APIs · REST · WebSockets · JWT (PyJWT) · Pydantic · SQLAlchemy · asyncpg |
-| **LLM & RAG** | RAG pipelines · PyMuPDF · Chunking · Sentence Transformers · ChromaDB · Semantic search · Ollama |
-| **Data & Messaging** | PostgreSQL · Redis Pub/Sub · ChromaDB |
-| **Engineering** | Pytest · Docker · Docker Compose · Git · Postman · DSA |
 
 <br/>
 
