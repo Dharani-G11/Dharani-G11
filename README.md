@@ -1,16 +1,182 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**Dharani-G11/Dharani-G11** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:0f2f3d,100:0ea5e9&height=260&section=header&text=Dharani%20G&fontSize=72&fontColor=ffffff&animation=twinkling&fontAlignY=40&desc=Python%20Backend%20%26%20AI%20Engineer&descSize=24&descAlignY=62&descColor=7dd3fc" width="100%" alt="Dharani G"/>
 
-Here are some ideas to get you started:
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=700&height=45&lines=%3E+building+async+REST+APIs+with+FastAPI;%3E+shipping+RAG+pipelines+with+local+LLMs;%3E+real-time+systems+with+WebSockets+%2B+Redis;%3E+clean+code.+tested.+containerised.;%3E+open+to+Backend+%2F+AI+Engineer+roles" alt="Typing animation"/>
+</a>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<br/>
+
+<a href="https://linkedin.com/in/dharani1100"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:dharaniganesan011@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Open_to_Work-22c55e?style=for-the-badge&logo=target&logoColor=white"/>
+<img src="https://komarev.com/ghpvc/?username=Dharani-G11&label=Views&color=0ea5e9&style=for-the-badge"/>
+
+</div>
+
+<br/>
+
+## `~/about`
+
+👋 **Hi, I'm Dharani**, a Python backend developer who enjoys building reliable, explainable **LLM-powered services**.
+
+My work centres on **async REST APIs** and **Retrieval-Augmented Generation (RAG) pipelines**: PDF parsing, chunking, embeddings, semantic search, and local LLMs via Ollama. I care about production-style practices like containerised services, JWT authentication, automated testing with Pytest, and clean, modular code.
+
+```python
+class Dharani:
+    role      = "Python Backend & AI Engineer"
+    location  = "Namakkal, Tamil Nadu, India"
+    focus     = ["Async REST APIs", "RAG pipelines", "Local LLMs (Ollama)", "Real-time systems"]
+    practices = ["JWT auth", "Pytest", "Docker", "Clean modular code"]
+    learning  = ["LLM-powered workflows", "Agentic tooling", "Claude Code"]
+    status    = "Open to work"
+
+    def goal(self):
+        return "Build reliable, explainable LLM-powered services"
+```
+
+<br/>
+
+## `~/tech-stack`
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,fastapi,postgres,redis,docker,git,js,postman,linux,vscode&theme=dark" alt="Core stack"/>
+
+</div>
+
+| Area | Tools |
+|:--|:--|
+| **Languages** | Python · SQL · JavaScript |
+| **Backend** | FastAPI · async APIs · REST · WebSockets · JWT (PyJWT) · Pydantic · SQLAlchemy · asyncpg |
+| **LLM & RAG** | RAG pipelines · PyMuPDF · Chunking · Sentence Transformers · ChromaDB · Semantic search · Ollama |
+| **Data & Messaging** | PostgreSQL · Redis Pub/Sub · ChromaDB |
+| **Engineering** | Pytest · Docker · Docker Compose · Git · Postman · DSA |
+
+<br/>
+
+## `~/featured-projects`
+
+### 🤖 AI Resume & Job-Match Assistant (RAG)
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6446?style=flat-square)
+![Ollama](https://img.shields.io/badge/Ollama-111827?style=flat-square&logo=ollama&logoColor=white)
+![Sentence Transformers](https://img.shields.io/badge/Sentence_Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+
+Parses resume PDFs, retrieves the most relevant chunks, and uses a local LLM to produce job-match answers grounded in the resume, not guesses.
+
+```mermaid
+flowchart LR
+    A[Resume PDF] --> B[PyMuPDF<br/>Parse]
+    B --> C[Chunking]
+    C --> D[Sentence Transformers<br/>Embeddings]
+    D --> E[(ChromaDB)]
+    F[Job Description] --> G[Semantic Search]
+    E --> G
+    G --> H[Ollama LLM]
+    H --> I[Grounded Job-Match Response]
+```
+
+**[View repository →](https://github.com/Dharani-G11/REPLACE-WITH-REPO-NAME)**
+
+<br/>
+
+### 📋 Real-Time Collaborative Task Board
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+Async REST APIs with JWT authentication and PostgreSQL persistence. Changes are broadcast to every connected client in real time using WebSockets with Redis Pub/Sub. Fully containerised and covered by Pytest.
+
+```mermaid
+flowchart LR
+    C1[Client A] <-->|WebSocket| API[FastAPI<br/>Async + JWT]
+    C2[Client B] <-->|WebSocket| API
+    API <--> DB[(PostgreSQL<br/>SQLAlchemy + asyncpg)]
+    API <-->|Pub/Sub| R[(Redis)]
+```
+
+**[View repository →](https://github.com/Dharani-G11/REPLACE-WITH-REPO-NAME)**
+
+<br/>
+
+### 🚗 Ride EXX: Car Rental Website
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+A responsive car rental website built with HTML, CSS and JavaScript. **[View repository →](https://github.com/Dharani-G11/REPLACE-WITH-REPO-NAME)**
+
+<br/>
+
+## `~/experience`
+
+```text
+2025-08 → 2026-02   Product Support Intern        @ SMARTAIL, Chennai
+                    · Cleaned and prepared datasets for ML model training
+                    · Fixed data quality issues to keep ML workflows reliable
+                    · Tested product features, documented and reported bugs
+
+2024-08 → 2025-03   Customer Support Associate    @ Tech Mahindra, Mumbai
+                    · Resolved customer issues in a fast-paced environment
+```
+
+<br/>
+
+## `~/education-and-certifications`
+
+- 🎓 **B.Tech, Information Technology**: Muthayammal Engineering College (2021 – 2024) · CGPA 7.5
+- 🏅 **Claude Code in Action**: Anthropic
+- 🏅 **Artificial Intelligence**: NPTEL
+- 🎤 Presented a project at a **national-level conference**
+
+<br/>
+
+## `~/github-stats`
+
+<div align="center">
+
+<img height="175" src="https://github-readme-stats.vercel.app/api?username=Dharani-G11&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&count_private=true" alt="Stats"/>
+<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dharani-G11&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8" alt="Top languages"/>
+
+<img src="https://streak-stats.demolab.com?user=Dharani-G11&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8" alt="Streak"/>
+
+</div>
+
+<br/>
+
+## `~/contribution-snake` 🐍
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dharani-G11/Dharani-G11/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Dharani-G11/Dharani-G11/output/github-snake.svg" />
+  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/Dharani-G11/Dharani-G11/output/github-snake.svg" />
+</picture>
+
+</div>
+
+<br/>
+
+## `~/contact`
+
+<div align="center">
+
+**Open to Python Backend and AI / LLM Engineering opportunities.**
+
+<a href="https://linkedin.com/in/dharani1100"><img src="https://img.shields.io/badge/Connect_on-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:dharaniganesan011@gmail.com"><img src="https://img.shields.io/badge/Email-dharaniganesan011@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:0f2f3d,100:0d1117&height=130&section=footer" width="100%" alt="footer"/>
+
+</div>
