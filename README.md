@@ -1,6 +1,7 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:0f2f3d,100:0ea5e9&height=260&section=header&text=Dharani%20G&fontSize=72&fontColor=ffffff&animation=twinkling&fontAlignY=40&desc=Python%20Backend%20%26%20AI%20Engineer&descSize=24&descAlignY=62&descColor=7dd3fc" width="100%" alt="Dharani G"/>
+<h1>Hi, I'm Dharani G 👋</h1>
+<h3>Python Backend &amp; AI Engineer</h3>
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=700&height=45&lines=%3E+building+async+REST+APIs+with+FastAPI;%3E+shipping+RAG+pipelines+with+local+LLMs;%3E+real-time+systems+with+WebSockets+%2B+Redis;%3E+clean+code.+tested.+containerised.;%3E+open+to+Backend+%2F+AI+Engineer+roles" alt="Typing animation"/>
@@ -174,9 +175,5 @@ A responsive car rental website built with HTML, CSS and JavaScript. **[View rep
 
 <a href="https://linkedin.com/in/dharani1100"><img src="https://img.shields.io/badge/Connect_on-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="mailto:dharaniganesan011@gmail.com"><img src="https://img.shields.io/badge/Email-dharaniganesan011@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:0f2f3d,100:0d1117&height=130&section=footer" width="100%" alt="footer"/>
 
 </div>
